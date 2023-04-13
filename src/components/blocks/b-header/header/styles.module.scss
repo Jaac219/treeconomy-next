@@ -1,0 +1,245 @@
+section.header nav ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+}
+
+section.header nav ul li {
+  display: inline-block;
+  padding: 10px 0px;
+  margin-left: 15px;
+}
+
+section.header  ul li a {
+  font-family: "comfortaa-regular";
+  color: #035941;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section.header nav.nav-page ul li a {
+  font-family: "comfortaa-regular";
+  color: #035941;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section.header.night  ul li a {
+  color: #ffff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section.header  ul li a:hover {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #f2622e;
+}
+
+section.header  ul li:nth-child(1) a {
+  color: transparent !important;
+  position: relative;
+}
+
+section.header  ul li:nth-child(1) a:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  // background-image: url("../img/icons/home-sun.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}
+
+section.header  ul li:nth-last-child(1) a,
+section.header  ul li:nth-last-child(2) a {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #f2622e;
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section.header  ul li:nth-last-child(1) a:hover,
+section.header  ul li:nth-last-child(2) a:hover {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+  box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+}
+
+section.header  ul li:last-child a {
+  color: transparent !important;
+  position: relative;
+  padding: 9px 14px !important;
+}
+
+section.header  ul li:last-child a::after {
+  content: "";
+  width: 29px;
+  height: 26px;
+  // background-image: url("../img/Group 40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+section.header.night  ul li a {
+  color: #fff;
+}
+
+section.header.night nav.nav-page ul li a {
+  color: #035941 !important;
+}
+
+section.header nav ul li a:hover {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #f2622e;
+}
+
+section.header nav.nav-page ul li:nth-child(1) a {
+  color: transparent !important;
+  position: relative;
+}
+
+section.header nav.nav-page ul li:nth-child(1) a:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  // background-image: url("../img/icons/home-sun.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}
+
+section.header nav.nav-page ul li:nth-last-child(1) a,
+section.header nav.nav-page ul li:nth-last-child(2) a {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #f2622e;
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section.header nav.nav-page ul li:nth-last-child(1) a:hover,
+section.header nav.nav-page ul li:nth-last-child(2) a:hover {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+  box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+}
+
+section.header nav.nav-page ul li:last-child a {
+  color: transparent !important;
+  position: relative;
+  padding: 9px 14px !important;
+}
+
+section.header nav.nav-page ul li:last-child a::after {
+  content: "";
+  width: 29px;
+  height: 26px;
+  // background-image: url("../img/Group 40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.headerMain.headerMain.top-of-page nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.headerMain.headerMain.top-of-page nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
+
+.headerMain.headerMain.top-of-page.night nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.headerMain.headerMain.top-of-page.night nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
+
+.who-we-are section.header.night nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.who-we-are section.header.night nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
+
+/*.who-we-are section.header.night nav ul li:nth-child(4) a{
+  color: #035941 !important;
+}*/
+.contact-us section.header.night nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.contact-us section.header.night nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
+
+/*.contact-us section.header.night nav ul li:nth-child(4) a{
+  color: #035941 !important;
+}*/
+.how-it-work section.header.day nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.how-it-work section.header.day nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
+
+/*.how-it-work section.header.night nav ul li:nth-child(4) a{
+  color: #fff !important;
+}*/
+.melina section.header.night nav ul li:nth-child(2) a {
+  color: #035941 !important;
+}
+
+.melina section.header.night nav ul li:nth-child(3) a {
+  color: #035941 !important;
+}
