@@ -1,0 +1,134 @@
+
+.arbustos ul {
+  display: none;
+}
+
+.arbustos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.arbustos ul li {
+  margin: 10px 0;
+  border: 1px solid #fff;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.arbustos ul li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.tittleBanner .titulo1 {
+  font-size: 20px;
+}
+
+.tittleBanner .titulo2 {
+  font-size: 35px;
+}
+
+.tittleBanner .titulo3 {
+  font-size: 60px;
+}
+
+.tittleBanner {
+  margin-bottom: 25px;
+}
+
+.tittleBanner span {
+  display: block;
+}
+
+.tittleBanner .titulo1 {
+  color: #fff;
+  -webkit-transition: all 3s !important;
+  -o-transition: all 3s !important;
+  transition: all 3s !important;
+}
+
+.tittleBanner .titulo2 {
+  color: #fff;
+  -webkit-transition: all 3s !important;
+  -o-transition: all 3s !important;
+  transition: all 3s !important;
+}
+
+.tittleBanner .titulo3 {
+  color: #fff;
+  -webkit-transition: all 3s !important;
+  -o-transition: all 3s !important;
+  transition: all 3s !important;
+}
+
+.tittleBanner .titulo1 {
+  font-family: "comfortaa-light";
+  font-size: 20px;
+  color: #035941;
+  margin-left: 10px;
+  -webkit-transition: all 1s !important;
+  -o-transition: all 1s !important;
+  transition: all 1s !important;
+}
+
+.tittleBanner .titulo2 {
+  font-family: "comfortaa-light";
+  font-size: 43px;
+  color: #035941;
+  margin-left: 13px;
+  margin-top: -5px;
+  -webkit-transition: all 1s !important;
+  -o-transition: all 1s !important;
+  transition: all 1s !important;
+}
+
+.tittleBanner .titulo3 {
+  font-family: "comfortaa-bold";
+  font-size: 83px;
+  color: #035941;
+  margin-top: -13px;
+  -webkit-transition: all 3s !important;
+  -o-transition: all 3s !important;
+  transition: all 3s !important;
+}
+
+.whoButton {
+  padding: 7px 21px;
+  border-radius: 25px;
+  background-color: #f2622e;
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.whoButton {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #f2622e;
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.whoButton:hover {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+  box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
+}

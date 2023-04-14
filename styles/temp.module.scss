@@ -2057,21 +2057,9 @@ table {
     MAIN
 \*------------------------------------*/
 
-/* global box-sizing */
-*,
-*:after,
-*:before {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
 
-/* html element 62.5% font-size for REM use */
-html {
-  font-size: 62.5%;
-}
+
+
 
 body {
   font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2394,30 +2382,6 @@ a img.aligncenter {
     padding: 0px 35px;
   }
 
-  section.banner .tittle-banner .titulo-1 {
-    font-size: 20px;
-  }
-
-  section.banner .tittle-banner .titulo-2 {
-    font-size: 35px;
-  }
-
-  section.banner .tittle-banner .titulo-3 {
-    font-size: 60px;
-  }
-
-  section.banner .who-button {
-    padding: 7px 21px;
-    border-radius: 25px;
-    background-color: #f2622e;
-    color: #fff !important;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
   section.banner .texto-general {
     max-width: 85%;
   }
@@ -2444,9 +2408,6 @@ a img.aligncenter {
     box-shadow: none;
   }
 
-  .arbustos ul {
-    display: none;
-  }
 
 
 
@@ -3539,31 +3500,7 @@ div.item-plant-now .texto-extra span.deco:after {
   text-align: center;
 }
 
-.arbustos ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0;
-}
 
-.arbustos ul li {
-  margin: 10px 0;
-  border: 1px solid #fff;
-  width: 46px;
-  height: 46px;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.arbustos ul li a {
-  color: #fff;
-  font-size: 30px;
-}
 
 .blog-info {
   margin-top: 5%;
