@@ -1,4 +1,12 @@
-section.header nav ul {
+/* Header */
+.header {
+  padding: 25px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.header nav ul {
   list-style: none;
   padding: 0;
   width: 100%;
@@ -6,13 +14,13 @@ section.header nav ul {
   margin: 0;
 }
 
-section.header nav ul li {
+.header nav ul li {
   display: inline-block;
   padding: 10px 0px;
   margin-left: 15px;
 }
 
-section.header  ul li a {
+.header nav.nav-home ul li a {
   font-family: "comfortaa-regular";
   color: #035941;
   font-size: 20px;
@@ -22,7 +30,7 @@ section.header  ul li a {
   transition: all 0.3s;
 }
 
-section.header nav.nav-page ul li a {
+.header nav.nav-page ul li a {
   font-family: "comfortaa-regular";
   color: #035941;
   font-size: 20px;
@@ -32,26 +40,26 @@ section.header nav.nav-page ul li a {
   transition: all 0.3s;
 }
 
-section.header.night  ul li a {
+.header.night nav.nav-home ul li a {
   color: #ffff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-section.header  ul li a:hover {
+.header nav.nav-home ul li a:hover {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   color: #f2622e;
 }
 
-section.header  ul li:nth-child(1) a {
+.header nav.nav-home ul li:nth-child(1) a {
   color: transparent !important;
   position: relative;
 }
 
-section.header  ul li:nth-child(1) a:after {
+.header nav.nav-home ul li:nth-child(1) a:after {
   content: "";
   width: 25px;
   height: 25px;
@@ -67,8 +75,8 @@ section.header  ul li:nth-child(1) a:after {
   right: 0;
 }
 
-section.header  ul li:nth-last-child(1) a,
-section.header  ul li:nth-last-child(2) a {
+.header nav.nav-home ul li:nth-last-child(1) a,
+.header nav.nav-home ul li:nth-last-child(2) a {
   padding: 10px 25px;
   border-radius: 25px;
   background-color: #f2622e;
@@ -78,8 +86,8 @@ section.header  ul li:nth-last-child(2) a {
   transition: all 0.3s;
 }
 
-section.header  ul li:nth-last-child(1) a:hover,
-section.header  ul li:nth-last-child(2) a:hover {
+.header nav.nav-home ul li:nth-last-child(1) a:hover,
+.header nav.nav-home ul li:nth-last-child(2) a:hover {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -87,13 +95,13 @@ section.header  ul li:nth-last-child(2) a:hover {
   box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
 }
 
-section.header  ul li:last-child a {
+.header nav.nav-home ul li:last-child a {
   color: transparent !important;
   position: relative;
   padding: 9px 14px !important;
 }
 
-section.header  ul li:last-child a::after {
+.header nav.nav-home ul li:last-child a::after {
   content: "";
   width: 29px;
   height: 26px;
@@ -109,27 +117,27 @@ section.header  ul li:last-child a::after {
   left: 50%;
 }
 
-section.header.night  ul li a {
+.header.night nav.nav-home ul li a {
   color: #fff;
 }
 
-section.header.night nav.nav-page ul li a {
+.header.night nav.nav-page ul li a {
   color: #035941 !important;
 }
 
-section.header nav ul li a:hover {
+.header nav ul li a:hover {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   color: #f2622e;
 }
 
-section.header nav.nav-page ul li:nth-child(1) a {
+.header nav.nav-page ul li:nth-child(1) a {
   color: transparent !important;
   position: relative;
 }
 
-section.header nav.nav-page ul li:nth-child(1) a:after {
+.header nav.nav-page ul li:nth-child(1) a:after {
   content: "";
   width: 25px;
   height: 25px;
@@ -145,8 +153,8 @@ section.header nav.nav-page ul li:nth-child(1) a:after {
   right: 0;
 }
 
-section.header nav.nav-page ul li:nth-last-child(1) a,
-section.header nav.nav-page ul li:nth-last-child(2) a {
+.header nav.nav-page ul li:nth-last-child(1) a,
+.header nav.nav-page ul li:nth-last-child(2) a {
   padding: 10px 25px;
   border-radius: 25px;
   background-color: #f2622e;
@@ -156,8 +164,8 @@ section.header nav.nav-page ul li:nth-last-child(2) a {
   transition: all 0.3s;
 }
 
-section.header nav.nav-page ul li:nth-last-child(1) a:hover,
-section.header nav.nav-page ul li:nth-last-child(2) a:hover {
+.header nav.nav-page ul li:nth-last-child(1) a:hover,
+.header nav.nav-page ul li:nth-last-child(2) a:hover {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -165,13 +173,13 @@ section.header nav.nav-page ul li:nth-last-child(2) a:hover {
   box-shadow: 0px 0px 10px 0px rgba(242, 98, 46, 1);
 }
 
-section.header nav.nav-page ul li:last-child a {
+.header nav.nav-page ul li:last-child a {
   color: transparent !important;
   position: relative;
   padding: 9px 14px !important;
 }
 
-section.header nav.nav-page ul li:last-child a::after {
+.header nav.nav-page ul li:last-child a::after {
   content: "";
   width: 29px;
   height: 26px;
@@ -187,21 +195,47 @@ section.header nav.nav-page ul li:last-child a::after {
   left: 50%;
 }
 
-.headerMain.headerMain.top-of-page nav ul li:nth-child(2) a {
+.header-main.top-of-page {
+  -webkit-transform: translateY(-45px);
+
+  -ms-transform: translateY(-45px);
+
+  transform: translateY(-45px);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-main {
+  background-color: transparent;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.header-main.header-main.top-of-page nav ul li:nth-child(2) a {
   color: #035941 !important;
 }
 
-.headerMain.headerMain.top-of-page nav ul li:nth-child(3) a {
+.header-main.header-main.top-of-page nav ul li:nth-child(3) a {
   color: #035941 !important;
 }
 
-.headerMain.headerMain.top-of-page.night nav ul li:nth-child(2) a {
+.header-main.header-main.top-of-page.night nav ul li:nth-child(2) a {
   color: #035941 !important;
 }
 
-.headerMain.headerMain.top-of-page.night nav ul li:nth-child(3) a {
+.header-main.header-main.top-of-page.night nav ul li:nth-child(3) a {
   color: #035941 !important;
 }
+
+/*.header-main.header-main.top-of-page nav ul li:nth-child(4) a{
+  color: #035941 !important;
+}*/
 
 .who-we-are section.header.night nav ul li:nth-child(2) a {
   color: #035941 !important;
@@ -242,4 +276,57 @@ section.header nav.nav-page ul li:last-child a::after {
 
 .melina section.header.night nav ul li:nth-child(3) a {
   color: #035941 !important;
+}
+
+.thead {
+  display: table-header-group;
+}
+
+header.header {
+  display: none;
+}
+
+.mobile-header .logo-inicial {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.mobile-header .logo-inicial.top-of-page-mobile {
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 17px -2px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 1px 17px -2px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 1px 17px -2px rgba(0, 0, 0, 0.22);
+  transition: all 0.5s;
+  height: 50px;
+}
+
+.mobile-header .logo-inicial img.logo {
+  max-width: 100%;
+  padding: 10px;
+  width: 40%;
+}
+
+.mobile-header {
+  display: block;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.addtoany_header {
+  margin: 0 0 16px
 }

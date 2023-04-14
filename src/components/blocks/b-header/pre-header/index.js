@@ -3,6 +3,7 @@ import styles from './styles.module.scss'
 const PRHeader = () =>{
   return(
     <section className={styles.preheader}>
+    {/* <section className="preheader"> */}
       <div className="container">
         <div className="row">
           <div className="col-xl-12">

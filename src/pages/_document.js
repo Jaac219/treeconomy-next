@@ -17,12 +17,12 @@ export default function Document() {
         {/* <link rel="stylesheet" id="trp-language-switcher-style-css" href="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css?ver=2.4.7" media="all"/> */}
         {/* <link rel="stylesheet" id="normalize-css" href="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/normalize.css?ver=1.0" media="all"/> */}
         {/* <link rel="stylesheet" id="html5blank-css" href="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/style.css?ver=1.0" media="all"/> */}
-        {/* <link rel="stylesheet" id="bootstrap_css-css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?ver=4.4.1" media="all"/> */}
+        <link rel="stylesheet" id="bootstrap_css-css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?ver=4.4.1" media="all"/>
         {/* <link rel="stylesheet" id="general_css-css" href="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/css/desktop-css.css?ver=1.1.0" media="all"/> */}
         {/* <link rel="stylesheet" id="responsive_css-css" href="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/css/mobile-css.css?ver=1.1.0" media="all"/> */}
-        {/* <link rel="stylesheet" id="slick_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=1.1.0" media="all"/> */}
-        {/* <link rel="stylesheet" id="slick_theme_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css?ver=1.1.0" media="all"/> */}
-        {/* <link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" media="all"/> */}
+        <link rel="stylesheet" id="slick_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=1.1.0" media="all"/>
+        <link rel="stylesheet" id="slick_theme_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css?ver=1.1.0" media="all"/>
+        <link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" media="all"/>
         {/* <link rel="stylesheet" id="addtoany-css" href="https://www.treeconomy.com.co/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16" media="all"/> */}
         {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="https://use.fontawesome.com/releases/v6.2.0/css/v4-shims.css" media="all"/> */}
       </Head>

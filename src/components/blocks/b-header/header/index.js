@@ -3,6 +3,7 @@ import styles from './styles.module.scss'
 const Header = ({children})=>{
   return (
     <section id="animacion-dias-header" className={`${styles.header} ${styles.headeMain} ${styles.night}`}>
+    {/* <section id="animacion-dias-header" className="header head-main night"> */}
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-xl-2 col-lg-2">
@@ -10,12 +11,12 @@ const Header = ({children})=>{
               <a href="#">
                 <img id="logo-inicial-color-verde" alt="Logo"
                   data-src="https://treeconomy.com.co/wp-content/uploads/2020/07/Logo-Verde.png"
-                  className="logo-img lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+                  className="logo-img"
+                  src="https://treeconomy.com.co/wp-content/uploads/2020/07/Logo-Verde.png"/>
                 <img id="logo-inicial-color-blanco" alt="Logo"
                   data-src="https://treeconomy.com.co/wp-content/uploads/2020/08/Logo-Blanco.png"
                   className="logo-img active lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+                  src="https://treeconomy.com.co/wp-content/uploads/2020/08/Logo-Blanco.png"/>
               </a>
             </div>
           </div>
@@ -31,8 +32,8 @@ const Header = ({children})=>{
                       title="Espa&ntilde;ol de Colombia" onClick={(e)=>e.preventDefault()}>
                       <img width="18" height="12" alt="es_CO" title="Espa&ntilde;ol de Colombia"
                         data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"
-                        className="trp-flag-image lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/> </a>
+                        className="trp-flag-image"
+                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"/> </a>
                   </div>
                   <div className="trp-ls-shortcode-language">
                     <a href="#" className="trp-ls-shortcode-disabled-language trp-ls-disabled-language"
@@ -40,12 +41,12 @@ const Header = ({children})=>{
                       <img width="18" height="12" alt="es_CO" title="Espa&ntilde;ol de Colombia"
                         data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"
                         className="trp-flag-image lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/> </a>
+                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"/> </a>
                     <a href="https://www.treeconomy.com.co/en/" title="English">
                       <img width="18" height="12" alt="en_US" title="English"
                         data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"
                         className="trp-flag-image lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/> </a>
+                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"/> </a>
                   </div>
                 </div>
               </div>
