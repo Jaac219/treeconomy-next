@@ -1,14 +1,15 @@
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 
-const SShrubbery = ()=>{
+
+const MShrubbery = ()=>{
   return (
     <div className={`container-fluid ${styles.arbustos}`}>
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-xl-12 col-12">
-            <div className="position-text">
+            <div className="">
               <h2 className={styles.tittleBanner}>
                 <span className={styles.titulo1}> </span>
                 <span className={styles.titulo2}>
@@ -27,15 +28,13 @@ const SShrubbery = ()=>{
                 retornos superiores al 12% anual, mientras haces un gran impacto
                 positivo al mundo a través de la forestación.
               </p>
-              <FontAwesomeIcon icon={faCoffee} />
-
               <ul>
                 <li>
                   <a
                     href="https://www.facebook.com/TheTREEconomy"
                     target="_blank"
                   >
-                    
+                    <FontAwesomeIcon icon={faFacebookF} />
                     {/* <i className="fa fa-facebook-f"></i> */}
                   </a>
                 </li>
@@ -44,14 +43,14 @@ const SShrubbery = ()=>{
                     href="https://www.instagram.com/thetreeconomy/"
                     target="_blank"
                   >
-                    {/* <FontAwesomeIcon icon="check-square" /> */}
+                    <FontAwesomeIcon icon={faInstagram} />
                     {/* <i className="fa fa-instagram"></i> */}
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/TheTreeconomy" target="_blank">
-                    {/* <FontAwesomeIcon icon={['fab', 'fa-facebook-f']} /> */}
-                    <i className="fa fa-twitter"></i>
+                    <FontAwesomeIcon icon={faTwitter} />
+                    {/* <i className="fa fa-twitter"></i> */}
                   </a>
                 </li>
               </ul>
@@ -167,4 +166,4 @@ const SShrubbery = ()=>{
   )
 }
 
-export default SShrubbery
+export default MShrubbery

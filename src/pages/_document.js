@@ -7,7 +7,7 @@ export default function Document() {
         <link href="//www.google-analytics.com" rel="dns-prefetch"/>
 	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="shortcut icon"/>
 	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="apple-touch-icon-precomposed"/>
-        <link rel="stylesheet" id="contact-form-7-css" href="https://www.treeconomy.com.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.3" media="all"/>
+        {/* <link rel="stylesheet" id="contact-form-7-css" href="https://www.treeconomy.com.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.3" media="all"/> */}
 
 	      <meta name="description" content="Salvemos el mundo invirtiendo en Árboles" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
@@ -22,11 +22,11 @@ export default function Document() {
         {/* <link rel="stylesheet" id="responsive_css-css" href="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/css/mobile-css.css?ver=1.1.0" media="all"/> */}
         <link rel="stylesheet" id="slick_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=1.1.0" media="all"/>
         <link rel="stylesheet" id="slick_theme_css-css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css?ver=1.1.0" media="all"/>
-        <link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" media="all"/>
+        {/* <link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" media="all"/> */}
         {/* <link rel="stylesheet" id="addtoany-css" href="https://www.treeconomy.com.co/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16" media="all"/> */}
         {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="https://use.fontawesome.com/releases/v6.2.0/css/v4-shims.css" media="all"/> */}
       </Head>
-      <body className='home page-template-default page page-id-21 translatepress-es_CO investment elementor-default elementor-kit-1035'>
+      <body className='home page-template-default page page-id-21  translatepress-es_CO investment elementor-default elementor-kit-1035'>
         <Main />
         <NextScript />
       </body>
