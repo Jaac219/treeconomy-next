@@ -5,21 +5,26 @@ import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-sv
 
 const MShrubbery = ()=>{
   return (
-    <div className={`container-fluid ${styles.arbustos}`}>
+    // <div className={`container-fluid ${styles.arbustos}`}>
+    <div className={`container-fluid arbustos`}>
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-xl-12 col-12">
-            <div className="">
-              <h2 className={styles.tittleBanner}>
-                <span className={styles.titulo1}> </span>
-                <span className={styles.titulo2}>
+            <div className="position-text">
+              {/* <h2 className={styles.tittleBanner}> */}
+              <h2 className="tittle-banner">
+                <span className="titulo-1"> </span>
+                {/* <span className={styles.titulo1}> </span> */}
+                <span className="titulo-2">
+                  {/* <span className={styles.titulo2}> */}
                   Construyendo una sostenibilidad{' '}
                 </span>
-                <span className={styles.titulo3}> Rentable</span>
+                <span className="titulo-3"> Rentable</span>
+                {/* <span className={styles.titulo3}> Rentable</span> */}
               </h2>
               <a
                 href="https://www.treeconomy.com.co/es/como-funciona/"
-                className={styles.whoButton}
+                className="who-button"
               >
                 Como Funciona
               </a>
@@ -64,7 +69,20 @@ const MShrubbery = ()=>{
           <div className="row">
             <div className="col-xl-12">
               <h2>¿Cómo lo hacemos?</h2>
-              <div className="contenedor-video"></div>
+              <div className="contenedor-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  rel="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""
+                  data-src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"
+                  class=" lazyloaded"
+                  src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"
+                  loading="lazy"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -84,7 +102,7 @@ const MShrubbery = ()=>{
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2054.png"
                   className="lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2054.png"
                 />
                 <p className="texto-descriptivo"></p>
                 <p>
@@ -99,7 +117,7 @@ const MShrubbery = ()=>{
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2055.png"
                   className="lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2055.png"
                 />
                 <p className="texto-descriptivo"></p>
                 <p>
@@ -115,7 +133,7 @@ const MShrubbery = ()=>{
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2053.png"
                   className="lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2053.png"
                 />
                 <p className="texto-descriptivo"></p>
                 <p>
@@ -130,7 +148,7 @@ const MShrubbery = ()=>{
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2056.png"
                   className="peque lazyload"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Group-2056.png"
                 />
                 <p className="texto-descriptivo"></p>
                 <p>

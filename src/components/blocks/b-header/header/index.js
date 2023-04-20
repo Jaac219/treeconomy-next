@@ -2,8 +2,8 @@ import styles from './styles.module.scss'
 
 const Header = ({children})=>{
   return (
-    <section id="animacion-dias-header" className={`${styles.header} ${styles.headeMain} ${styles.night}`}>
-    {/* <section id="animacion-dias-header" className="header head-main night"> */}
+    // <section id="animacion-dias-header" className={`${styles.header} ${styles.headeMain} ${styles.night}`}>
+    <section id="animacion-dias-header" className="header head-main night">
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-xl-2 col-lg-2">

@@ -2,11 +2,13 @@ const styles = import('./styles.module.scss')
 
 const MBlog = () => {
   return (
-    <div className={`${styles.single} ${styles.blogSection}`}>
+    // <div className={`${styles.single} ${styles.blogSection}`}>
+    <div className={`blog-section`}>
       <div className="container">
         <div className="row d-flex align-items-end">
           <div className="col-xl-4">
-            <div className={styles.contenerdorInfo}>
+            {/* <div className={styles.contenerdorInfo}> */}
+            <div className={`contenedor-info`}>
               <img
                 alt="planta tu árbol"
                 data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/undraw_video_streaming_yyld.png"
@@ -142,7 +144,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/01.png"
                     data-sizes="(max-width: 6912px) 100vw, 6912px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/01.png"
                   />
                   <div className="fecha-blog">
                     <p>23 marzo</p>

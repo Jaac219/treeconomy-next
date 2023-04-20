@@ -2,8 +2,8 @@ import styles from './styles.module.scss'
 
 const Navbar = ()=>{
   return(
-    <nav className={`${styles.nav} ${styles.navHome}`} role="navigation">
-    {/* <nav className="nav nav-home" role="navigation"> */}
+    // <nav className={`${styles.nav} ${styles.navHome}`} role="navigation">
+    <nav className="nav nav-home" role="navigation">
       <ul id="menu-main-menu" className="menu">
         <li id="menu-item-18"
           className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-18"><a
