@@ -10,26 +10,29 @@ export default function Document() {
       <link rel="stylesheet" id="trp-language-switcher-style-css" href="./trp-language-switcher.css" media="all"/>
       <link rel="stylesheet" id="normalize-css" href="./normalize.css" media="all"/>
       <link rel="stylesheet" id="html5blank-css" href="./style.css" media="all"/>
-      <link rel="stylesheet" id="chart_css-css" href="./chart.min.js" media="all"/>
+      {/* <link rel="stylesheet" id="chart_css-css" href="./chart.min.js" media="all"/> */}
       <link rel="stylesheet" id="bootstrap_css-css" href="./bootstrap.min.css" media="all"/>
       <link rel="stylesheet" id="general_css-css" href="./desktop-css.css" media="all"/>
       <link rel="stylesheet" id="responsive_css-css" href="./mobile-css.css" media="all"/>
-      <link rel="stylesheet" id="slick_css-css" href="./slick.min.css" media="all"/>
-      <link rel="stylesheet" id="slick_theme_css-css" href="./slick-theme.css" media="all"/>
-      <link rel="stylesheet" id="font-awesome-official-css" href="./all.css" media="all" integrity="sha384-SOnAn/m2fVJCwnbEYgD4xzrPtvsXdElhOVvR8ND1YjB5nhGNwwf7nBQlhfAwHAZC" crossorigin="anonymous"/>
+      {/* <link rel="stylesheet" id="slick_css-css" href="./slick.min.css" media="all"/>
+      <link rel="stylesheet" id="slick_theme_css-css" href="./slick-theme.css" media="all"/> */}
+      {/* <link rel="stylesheet" id="font-awesome-official-css" href="./all.css" media="all" crossorigin="anonymous"/> */}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="addtoany-css" href="./addtoany.min.css" media="all"/>
-      <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./v4-shims.css" media="all" integrity="sha384-MAgG0MNwzSXBbmOw4KK9yjMrRaUNSCk3WoZPkzVC1rmhXzerY4gqk/BLNYtdOFCO" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/v4-shims.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./v4-shims.css" media="all" crossorigin="anonymous"/> */}
 
-
+      
       {/* <script type="text/javascript" src="./conditionizr-4.3.0.min.js" id="conditionizr-js"></script>
       <script type="text/javascript" src="./modernizr-2.7.1.min.js" id="modernizr-js"></script>
       <script type="text/javascript" src="./jquery.min.js" id="jquery-core-js"></script>
-      <script type="text/javascript" src="./jquery-migrate.min.js" id="jquery-migrate-js"></script> 
+      <script type="text/javascript" src="./jquery-migrate.min.js" id="jquery-migrate-js"></script>
       <script type="text/javascript" src="./slick.js"></script>
       <script type="text/javascript" src="./scripts.min.js" id="html5blankscripts-js"></script> */}
+      
         {/* <link href="//www.google-analytics.com" rel="dns-prefetch"/>
 	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="shortcut icon"/>
-	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="apple-touch-icon-precomposed"/> */}
+	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="apple-touch-icon-precomposed"/>
         {/* <link rel="stylesheet" id="contact-form-7-css" href="https://www.treeconomy.com.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.3" media="all"/>
 
 	      <meta name="description" content="Salvemos el mundo invirtiendo en Árboles" />

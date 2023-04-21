@@ -1,6 +1,23 @@
 const styles = import('./styles.module.scss')
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import Slider from "react-slick";
 
 const MBlog = () => {
+
+  let settings = {
+    infinite: !0,
+    slidesToShow: 3,
+    dots: !1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: { slidesToShow: 1, slidesToScroll: 1, arrows: !1 }
+      }
+    ],
+    adaptiveHeight: true
+  };
+
   return (
     // <div className={`${styles.single} ${styles.blogSection}`}>
     <div className={`blog-section`}>
@@ -104,7 +121,7 @@ const MBlog = () => {
 
           <div className="row">
             <div className="col-xl-12">
-              <div className="slide-blog-home">
+              <Slider {...settings} className="slide-blog-home">
                 <div
                   className="blog-feed-preview"
                   onClick={() =>
@@ -162,21 +179,28 @@ const MBlog = () => {
                           title="Facebook"
                           rel="nofollow noopener"
                           target="_blank"
-                        ></a>
+                        >
+                        <FontAwesomeIcon icon={faFacebookF} />
+
+                        </a>
                         <a
                           className="a2a_button_twitter"
                           href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.treeconomy.com.co%2Fes%2Flas-3-oportunidades-de-inversion-sostenible-que-debes-conocer%2F&amp;linkname=Las%203%20oportunidades%20de%20inversi%C3%B3n%20sostenible%20que%20debes%20conocer."
                           title="Gorjeo"
                           rel="nofollow noopener"
                           target="_blank"
-                        ></a>
+                        >
+                        <FontAwesomeIcon icon={faTwitter} />
+                        </a>
                         <a
                           className="a2a_button_linkedin"
                           href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fwww.treeconomy.com.co%2Fes%2Flas-3-oportunidades-de-inversion-sostenible-que-debes-conocer%2F&amp;linkname=Las%203%20oportunidades%20de%20inversi%C3%B3n%20sostenible%20que%20debes%20conocer."
                           title="LinkedIn"
                           rel="nofollow noopener"
                           target="_blank"
-                        ></a>
+                        >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -219,7 +243,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/Diseno-sin-titulo.png"
                     data-sizes="(max-width: 1366px) 100vw, 1366px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/Diseno-sin-titulo.png"
                   />
                   <div className="fecha-blog">
                     <p>3 marzo</p>
@@ -292,7 +316,7 @@ const MBlog = () => {
                     loading="lazy"
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Diseno-sin-titulo.png"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Diseno-sin-titulo.png"
                   />
                   <div className="fecha-blog">
                     <p>27 febrero</p>
@@ -367,7 +391,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/1-2.png"
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/1-2.png"
                   />
                   <div className="fecha-blog">
                     <p>20 febrero</p>
@@ -441,7 +465,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/vecteezy_male-investor-use-a-laptop-computer-compound-interest-rate_8140442_236-scaled.jpg"
                     data-sizes="(max-width: 2560px) 100vw, 2560px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/vecteezy_male-investor-use-a-laptop-computer-compound-interest-rate_8140442_236-scaled.jpg"
                   />
                   <div className="fecha-blog">
                     <p>13 febrero</p>
@@ -515,7 +539,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Imagen-articulo.png"
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Imagen-articulo.png"
                   />
                   <div className="fecha-blog">
                     <p>6 febrero</p>
@@ -577,7 +601,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/01/4-articulos.png"
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="https://www.treeconomy.com.co/wp-content/uploads/2023/01/4-articulos.png"
                   />
                   <div className="fecha-blog">
                     <p>15 enero</p>
@@ -812,7 +836,7 @@ const MBlog = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Slider>
             </div>
           </div>
         </div>

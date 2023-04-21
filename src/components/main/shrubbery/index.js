@@ -73,12 +73,12 @@ const MShrubbery = ()=>{
                 <iframe
                   width="100%"
                   height="100%"
-                  frameborder="0"
+                  // frameborder="0"
                   rel="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen=""
+                  // allowfullscreen=""
                   data-src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"
-                  class=" lazyloaded"
+                  className="lazyloaded"
                   src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"
                   loading="lazy"
                 ></iframe>

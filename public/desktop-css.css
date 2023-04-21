@@ -8,27 +8,27 @@
 /* Fuentes */
 @font-face {
     font-family: "comfortaa-bold";
-    src: url("/fonts/Comfortaa-Bold.ttf") format("truetype");
+    src: url("./fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
   }
   @font-face {
     font-family: "comfortaa-regular";
-    src: url("/fonts/Comfortaa-Regular.ttf") format("truetype");
+    src: url("./fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family: "comfortaa-light";
-    src: url("/fonts/Comfortaa-Light.ttf") format("truetype");
+    src: url("./fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
   }
   @font-face {
     font-family: "lato-bold";
-    src: url("/fonts/Lato-Bold.ttf") format("truetype");
+    src: url("./fonts/Lato/Lato-Bold.ttf") format("truetype");
   }
   @font-face {
     font-family: "lato-regular";
-    src: url("/fonts/Lato-Regular.ttf") format("truetype");
+    src: url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family: "lato-light";
-    src: url("/fonts/Lato-Light.ttf") format("truetype");
+    src: url("./fonts/Lato/Lato-Light.ttf") format("truetype");
   }
   
   /* generales */
@@ -167,7 +167,7 @@
     content: "";
     width: 25px;
     height: 25px;
-    background-image: url("./img/icons/home-sun.svg");
+    /* background-image: url("./img/icons/home-sun.png"); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -236,7 +236,7 @@
     content: "";
     width: 25px;
     height: 25px;
-    background-image: url("./img/icons/home-sun.svg");
+    /* background-image: url("./img/icons/home-sun.png"); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -285,9 +285,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
   }
-  /* Main page */
-  main {
-  }
+
   /* cielo */
   /* 
   @-webkit-keyframes dianoche {
@@ -655,9 +653,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-  /* Contador */
-  .blog-section {
-  }
+
   .blog-section p {
     margin: 45px 0;
     color: #fff;
@@ -2123,9 +2119,9 @@
     margin: 0;
   }
   
-  .contenedor-datos form.cart input[type="number"] {
+  /* .contenedor-datos form.cart input[type="number"] {
     -moz-appearance: textfield;
-  }
+  } */
   .boton-venta {
     cursor: pointer;
   }
