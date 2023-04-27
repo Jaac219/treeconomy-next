@@ -8,7 +8,6 @@ export default function Document() {
       <link rel="stylesheet" id="nbcpf-intlTelInput-style-css" href="./intlTelInput.min.css" media="all"/>
       <link rel="stylesheet" id="nbcpf-countryFlag-style-css" href="./countrySelect.min.css" media="all"/>
       <link rel="stylesheet" id="trp-language-switcher-style-css" href="./trp-language-switcher.css" media="all"/>
-      <link rel="stylesheet" id="normalize-css" href="./normalize.css" media="all"/>
       <link rel="stylesheet" id="html5blank-css" href="./style.css" media="all"/>
       {/* <link rel="stylesheet" id="chart_css-css" href="./chart.min.js" media="all"/> */}
       <link rel="stylesheet" id="bootstrap_css-css" href="./bootstrap.min.css" media="all"/>
@@ -28,7 +27,10 @@ export default function Document() {
       <script type="text/javascript" src="./jquery.min.js" id="jquery-core-js"></script>
       <script type="text/javascript" src="./jquery-migrate.min.js" id="jquery-migrate-js"></script>
       <script type="text/javascript" src="./slick.js"></script>
-      <script type="text/javascript" src="./scripts.min.js" id="html5blankscripts-js"></script> */}
+      <script type="text/javascript" src="./scripts.min.js" id=" -js"></script> */}
+      {/* <script type="text/javascript" src="./jquery-migrate.min.js" id="jquery-migrate-js"></script> */}
+      {/* <script type="text/javascript" src="./jquery.min.js" id="jquery-core-js"></script>
+      <script type="text/javascript" src="./scripts.min.js" id=" -js"></script> */}
       
         {/* <link href="//www.google-analytics.com" rel="dns-prefetch"/>
 	      <link href="https://treeconomy.com.co/wp-content/uploads/2020/06/logo-tree-economy-hoja.png" rel="shortcut icon"/>
@@ -57,6 +59,13 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
+
+      {/* Pone el efecto noche en el canvan */}
+      {/* <script type="text/javascript" src="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/js/Chart.bundle.min.js?ver=1.0" id="script_chartBundle-js"></script>
+      <script type="text/javascript" src="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/js/sakura.js?ver=1.0" id="sakura_js-js"></script>
+     */}
+      {/* Es el que pone el canvan en el tamano adecuado */}
+      {/* <script type="text/javascript" src="https://www.treeconomy.com.co/wp-content/themes/Treeconomy/js/script-stars.js?ver=1.0" id="script_stars-js"></script> */}
     </Html>
   )
 }

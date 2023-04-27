@@ -1,4 +1,4 @@
-const styles = import('./styles.module.scss')
+import('./styles.module.scss')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 import Slider from "react-slick";

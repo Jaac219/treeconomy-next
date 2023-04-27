@@ -6,7 +6,7 @@ const Main = ()=>{
   return(
     <>
     <main role="main" id="main-dia">
-      <section id="animacion-dias" className="banner cnt-1 animate day">
+      <section id="animacion-dias" className="banner cnt-1 night">
         <canvas id="space"></canvas>
         <MShrubbery/>
         <MBlog />
