@@ -639,7 +639,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("./img/Union 1.svg");
+    /* background-image: url("./img/Union 1.svg"); */
     background-position: center;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1348,7 +1348,7 @@
     position: absolute;
     top: -20%;
     left: 0;
-    background-image: url("./img/Path 2177.svg");
+    /* background-image: url("./img/Path 2177.svg"); */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1627,7 +1627,7 @@
     left: 35px;
     background-color: #afbf36;
     border-radius: 15px;
-    background-image: url("./img/Group 2191.svg");
+    /* background-image: url("./img/Group 2191.svg"); */
   
     background-position: center;
     background-repeat: no-repeat;
@@ -1868,7 +1868,7 @@
     height: 285px;
     bottom: 10px;
     left: -117px;
-    background-image: url("./img/Group 2246.svg");
+    /* background-image: url("./img/Group 2246.svg"); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -2298,7 +2298,7 @@
   }
   .blog-principal:after {
     content: "";
-    background-image: url("./img/bg-Sky-blog.png");
+    /* background-image: url("./img/bg-Sky-blog.png"); */
     position: absolute;
     top: 0;
     left: 0;
@@ -2310,7 +2310,7 @@
   }
   .banner-who:after {
     content: "";
-    background-image: url("./img/Trazado 2177.svg");
+    /* background-image: url("./img/Trazado 2177.svg"); */
     position: absolute;
     top: 0;
     left: 0;
@@ -2866,7 +2866,7 @@
   }
   .site-calc:after {
     content: "";
-    background-image: url("./img/bg-Sky-calc.svg");
+    /* background-image: url("./img/bg-Sky-calc.svg"); */
     position: absolute;
     top: 0;
     left: 0;

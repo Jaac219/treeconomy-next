@@ -1,6 +1,8 @@
+import Navbar from '../navbar'
+import Languaje from '../languaje'
 import styles from './styles.module.scss'
 
-const Header = ({children})=>{
+const Header = ()=>{
   return (
     // <section id="animacion-dias-header" className={`${styles.header} ${styles.headerMain} ${styles.night}`}>
     <section id="animacion-dias-header" className="header header-main night">
@@ -21,35 +23,11 @@ const Header = ({children})=>{
             </div>
           </div>
           <div className="col-xl-9 col-lg-9">
-            {children}
+            <Navbar />
           </div>
           <div className="col-xl-1 col-lg-1">
             <div className="col-xl-1">
-              <div className="trp_language_switcher_shortcode">
-                <div className="trp-language-switcher trp-language-switcher-container" data-no-translation>
-                  <div className="trp-ls-shortcode-current-language">
-                    <a href="#" className="trp-ls-shortcode-disabled-language trp-ls-disabled-language"
-                      title="Espa&ntilde;ol de Colombia" onClick={(e)=>e.preventDefault()}>
-                      <img width="18" height="12" alt="es_CO" title="Espa&ntilde;ol de Colombia"
-                        data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"
-                        className="trp-flag-image"
-                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"/> </a>
-                  </div>
-                  <div className="trp-ls-shortcode-language">
-                    <a href="#" className="trp-ls-shortcode-disabled-language trp-ls-disabled-language"
-                      title="Espa&ntilde;ol de Colombia" onClick={(e)=>e.preventDefault()}>
-                      <img width="18" height="12" alt="es_CO" title="Espa&ntilde;ol de Colombia"
-                        data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"
-                        className="trp-flag-image lazyload"
-                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"/> </a>
-                    <a href="https://www.treeconomy.com.co/en/" title="English">
-                      <img width="18" height="12" alt="en_US" title="English"
-                        data-src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"
-                        className="trp-flag-image lazyload"
-                        src="https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"/> </a>
-                  </div>
-                </div>
-              </div>
+              <Languaje />
             </div>
           </div>
         </div>

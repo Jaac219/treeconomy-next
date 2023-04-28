@@ -2,23 +2,23 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
-      <link rel="stylesheet" id="contact-form-7-css" href="./styles.css" media="all"/>
-      <link rel="stylesheet" id="nbcpf-intlTelInput-style-css" href="./intlTelInput.min.css" media="all"/>
+      {/* <link rel="stylesheet" id="contact-form-7-css" href="./styles.css" media="all"/> */}
+      {/* <link rel="stylesheet" id="nbcpf-intlTelInput-style-css" href="./intlTelInput.min.css" media="all"/>
       <link rel="stylesheet" id="nbcpf-countryFlag-style-css" href="./countrySelect.min.css" media="all"/>
       <link rel="stylesheet" id="trp-language-switcher-style-css" href="./trp-language-switcher.css" media="all"/>
-      <link rel="stylesheet" id="html5blank-css" href="./style.css" media="all"/>
+      <link rel="stylesheet" id="html5blank-css" href="./style.css" media="all"/> */}
       {/* <link rel="stylesheet" id="chart_css-css" href="./chart.min.js" media="all"/> */}
-      <link rel="stylesheet" id="bootstrap_css-css" href="./bootstrap.min.css" media="all"/>
+      {/* <link rel="stylesheet" id="bootstrap_css-css" href="./bootstrap.min.css" media="all"/>
       <link rel="stylesheet" id="general_css-css" href="./desktop-css.css" media="all"/>
-      <link rel="stylesheet" id="responsive_css-css" href="./mobile-css.css" media="all"/>
+      <link rel="stylesheet" id="responsive_css-css" href="./mobile-css.css" media="all"/> */}
       {/* <link rel="stylesheet" id="slick_css-css" href="./slick.min.css" media="all"/>
       <link rel="stylesheet" id="slick_theme_css-css" href="./slick-theme.css" media="all"/> */}
       {/* <link rel="stylesheet" id="font-awesome-official-css" href="./all.css" media="all" crossorigin="anonymous"/> */}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+      {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="addtoany-css" href="./addtoany.min.css" media="all"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/v4-shims.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/v4-shims.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> */}
       {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./v4-shims.css" media="all" crossorigin="anonymous"/> */}
 
       
