@@ -13,7 +13,6 @@ import "slick-carousel/slick/slick-theme.css";
 import BChat from '../components/blocks/b-chat'
 // import '@/styles/globals.scss'
 
-
 import '@/public/styles.css'
 import '@/public/intlTelInput.min.css'
 import '@/public/countrySelect.min.css'

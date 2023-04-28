@@ -11,11 +11,11 @@ const PRHeader = () =>{
               <li id="menu-item-667" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a
                   href="http://localhost:3000/who-we-are">Nuestro Equipo</a></li>
               <li id="menu-item-623" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a
-                  href="#">Noticias</a></li>
+                  href="http://localhost:3000/news">Noticias</a></li>
               <li id="menu-item-226" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a
-                  href="#">Contáctanos</a></li>
+                  href="http://localhost:3000/contact-us">Contáctanos</a></li>
               <li id="menu-item-608" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-608"><a
-                  href="#">Acceso</a></li>
+                  href="https://app.treeconomy.com.co/en/account/login/">Acceso</a></li>
             </ul>
           </div>
         </div>
