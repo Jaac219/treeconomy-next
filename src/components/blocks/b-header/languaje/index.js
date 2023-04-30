@@ -17,7 +17,8 @@ const Languaje = () => {
   }
 
   const router = useRouter()
-  const { locale } = router
+  // const { locale } = router
+  const locale = 'es'
 
   const changeLang = (e) =>{
     e.preventDefault()
