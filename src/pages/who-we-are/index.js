@@ -1,13 +1,13 @@
 export default function WhoWeAre() {
   return (
     <>
-      <section class="banner-who">
-        <div class="container">
-          <div class="row d-flex align-items-center">
-            <div class="col-xl-6">
-              <p class="pre-text"></p>
+      <section className="banner-who">
+        <div className="container">
+          <div className="row d-flex align-items-center">
+            <div className="col-xl-6">
+              <p className="pre-text"></p>
               <h2>Innovando para darle más vida a nuestro planeta!</h2>
-              <p class="description">
+              <p className="description">
                 Somos un equipo de profesionales apasionados con un objetivo
                 común: crear ideas innovadoras e impactantes sobre como hacer de
                 nuestro planeta un lugar mejor. Nuestro equipo tiene una
@@ -18,11 +18,11 @@ export default function WhoWeAre() {
                 climático.{' '}
               </p>
             </div>
-            <div class="col-xl-6">
+            <div className="col-xl-6">
               <img
                 alt="por qué_nosotros_hacemos_que_suceda"
                 data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/undraw_Group_chat_unwm.png"
-                class=" ls-is-cached lazyloaded"
+                className=" ls-is-cached lazyloaded"
                 src="https://treeconomy.com.co/wp-content/uploads/2020/05/undraw_Group_chat_unwm.png"
                 loading="lazy"
               />
@@ -30,16 +30,16 @@ export default function WhoWeAre() {
           </div>
         </div>
       </section>
-      <section class="explicacion">
-        <div class="container">
-          <div class="row d-flex align-items-end">
-            <div class="col-xl-4">
-              <div class="explicacion-box">
+      <section className="explicacion">
+        <div className="container">
+          <div className="row d-flex align-items-end">
+            <div className="col-xl-4">
+              <div className="explicacion-box">
                 {' '}
                 <img
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/cropped-logo-tree-economy-hoja.png"
-                  class=" ls-is-cached lazyloaded"
+                  className=" ls-is-cached lazyloaded"
                   src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/cropped-logo-tree-economy-hoja.png"
                   loading="lazy"
                 />
@@ -56,13 +56,13 @@ export default function WhoWeAre() {
                 </p>
               </div>
             </div>
-            <div class="col-xl-4">
-              <div class="explicacion-box">
+            <div className="col-xl-4">
+              <div className="explicacion-box">
                 {' '}
                 <img
                   alt=""
                   data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Logo-treeconomy_-03-250x132-1.png"
-                  class=" ls-is-cached lazyloaded"
+                  className=" ls-is-cached lazyloaded"
                   src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/Logo-treeconomy_-03-250x132-1.png"
                   loading="lazy"
                 />
@@ -77,9 +77,9 @@ export default function WhoWeAre() {
                 </p>
               </div>
             </div>
-            <div class="col-xl-4">
-              <h2 class="extra-item">Transparencia</h2>
-              <p class="extra-texto">
+            <div className="col-xl-4">
+              <h2 className="extra-item">Transparencia</h2>
+              <p className="extra-texto">
                 ¡Creemos en la transparencia! Y por ello la exigimos a nuestro
                 equipo y a nuestros inversionistas. De ahí la razón por la que
                 implementamos la tecnología Blockchain en nuestra plataforma.
@@ -91,19 +91,19 @@ export default function WhoWeAre() {
           </div>
         </div>
       </section>
-      <section class="problem">
-        <div class="container-fluid">
-          <div class="row d-flex align-items-center">
-            <div class="col-xl-5 p-0">
+      <section className="problem">
+        <div className="container-fluid">
+          <div className="row d-flex align-items-center">
+            <div className="col-xl-5 p-0">
               <img
                 alt=""
                 data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/Screenshot_1.png"
-                class=" ls-is-cached lazyloaded"
+                className=" ls-is-cached lazyloaded"
                 src="https://treeconomy.com.co/wp-content/uploads/2020/05/Screenshot_1.png"
                 loading="lazy"
               />
             </div>
-            <div class="col-xl-6">
+            <div className="col-xl-6">
               <h2>Un problema complejo que requería una solución innovadora</h2>
               <p></p>
               <p>
@@ -133,148 +133,148 @@ export default function WhoWeAre() {
           </div>
         </div>
       </section>
-      <section class="teams">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
+      <section className="teams">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
               <h3></h3>
               <h2>Nuestro equipo</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xl-12">
-              <ul class="team-mobile">
+          <div className="row">
+            <div className="col-xl-12">
+              <ul className="team-mobile">
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/d80fe59b-0c53-4b79-8f62-0b759275ce4c.jpg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/d80fe59b-0c53-4b79-8f62-0b759275ce4c.jpg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">David Marín</p>
-                  <p class="work">Fundador y CEO</p>
+                  <p className="name">David Marín</p>
+                  <p className="work">Fundador y CEO</p>
                   <a
                     href="https://www.linkedin.com/in/davidgmarin/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/f8huidXg.jpeg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/f8huidXg.jpeg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">luis alejandro cruz</p>
-                  <p class="work">Cofundador y director de tecnología (CTO)</p>
+                  <p className="name">luis alejandro cruz</p>
+                  <p className="work">Cofundador y director de tecnología (CTO)</p>
                   <a
                     href="https://www.linkedin.com/in/alejocruzrcc/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/0.jpg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/0.jpg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Mateo Marín</p>
-                  <p class="work">Cofundador y Jefe de Crecimiento</p>
+                  <p className="name">Mateo Marín</p>
+                  <p className="work">Cofundador y Jefe de Crecimiento</p>
                   <a
                     href="https://www.linkedin.com/in/mateo-marin-35ba60172/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/0-1.jpg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/0-1.jpg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Daniela Marín</p>
-                  <p class="work">Cofundador y director creativo</p>
+                  <p className="name">Daniela Marín</p>
+                  <p className="work">Cofundador y director creativo</p>
                   <a
                     href="https://www.linkedin.com/in/danielamarinart/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/10.png"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/10.png"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Alejandra Jaramillo</p>
-                  <p class="work">Community Manager </p>
+                  <p className="name">Alejandra Jaramillo</p>
+                  <p className="work">Community Manager </p>
                   <a
                     href="https://www.linkedin.com/in/mar%C3%ADa-alejandra-jaramillo-mahecha-b2080a22a/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
               </ul>
 
-              <ul class="team-mobile">
+              <ul className="team-mobile">
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/ebe528b8-2034-41fb-b9cd-ee6acdc32b1c.jpg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/ebe528b8-2034-41fb-b9cd-ee6acdc32b1c.jpg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Emanuel Gutiérrez</p>
-                  <p class="work">
+                  <p className="name">Emanuel Gutiérrez</p>
+                  <p className="work">
                     Responsable de Relaciones con Inversores, Norteamérica y
                     Europa
                   </p>
@@ -282,104 +282,104 @@ export default function WhoWeAre() {
                     href="https://www.linkedin.com/in/emaguza/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/5BZi8Dfw.jpeg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/5BZi8Dfw.jpeg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Daniel Benítez</p>
-                  <p class="work">Líder de Operaciones Forestales</p>
+                  <p className="name">Daniel Benítez</p>
+                  <p className="work">Líder de Operaciones Forestales</p>
                   <a
                     href="https://www.linkedin.com/company/thetreeconomy/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/WBU4R-Ck.jpeg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/WBU4R-Ck.jpeg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Equipo de Operaciones </p>
-                  <p class="work">Gerente Legal y de Recursos Humanos</p>
+                  <p className="name">Equipo de Operaciones </p>
+                  <p className="work">Gerente Legal y de Recursos Humanos</p>
                   <a
                     href="https://www.linkedin.com/company/thetreeconomy/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/p.jpeg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/p.jpeg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Xilena Garizao</p>
-                  <p class="work">Supervisora de Proyectos</p>
+                  <p className="name">Xilena Garizao</p>
+                  <p className="work">Supervisora de Proyectos</p>
                   <a
                     href="https://www.linkedin.com/company/thetreeconomy/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   {' '}
-                  <div class="circular--landscape">
+                  <div className="circular--landscape">
                     <img
                       alt=""
                       data-src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/sY5Wdv6k.jpeg"
-                      class=" ls-is-cached lazyloaded"
+                      className=" ls-is-cached lazyloaded"
                       src="https://www.treeconomy.com.co/wp-content/uploads/2022/11/sY5Wdv6k.jpeg"
                       loading="lazy"
                     />
                   </div>
-                  <p class="name">Equipo de Operaciones</p>
-                  <p class="work">
+                  <p className="name">Equipo de Operaciones</p>
+                  <p className="work">
                     Algunos miembros del Equipo de Operaciones Forestales
                   </p>
                   <a
                     href="https://www.linkedin.com/company/thetreeconomy/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
               </ul>

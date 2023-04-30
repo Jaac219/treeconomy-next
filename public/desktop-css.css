@@ -9,26 +9,32 @@
 @font-face {
     font-family: "comfortaa-bold";
     src: url("./fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "comfortaa-regular";
     src: url("./fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "comfortaa-light";
     src: url("./fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "lato-bold";
     src: url("./fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "lato-regular";
     src: url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "lato-light";
     src: url("./fonts/Lato/Lato-Light.ttf") format("truetype");
+    font-display: swap;
   }
   
   /* generales */
@@ -991,10 +997,16 @@
   .header-main.header-main.top-of-page nav ul li:nth-child(3) a {
     color: #035941 !important;
   }
+  .header-main.header-main.top-of-page nav ul li:nth-child(4) a {
+    color: #035941 !important;
+  }
   .header-main.header-main.top-of-page.night nav ul li:nth-child(2) a {
     color: #035941 !important;
   }
   .header-main.header-main.top-of-page.night nav ul li:nth-child(3) a {
+    color: #035941 !important;
+  }
+  .header-main.header-main.top-of-page.night nav ul li:nth-child(4) a {
     color: #035941 !important;
   }
   /*.header-main.header-main.top-of-page nav ul li:nth-child(4) a{

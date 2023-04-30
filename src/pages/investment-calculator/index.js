@@ -17,15 +17,14 @@ export default function InvestmentCalculator() {
                 <h2>Calculadora de inversiones de sueños</h2>
                 <p></p>
                 <p>
-                ¿Sabes cuánto debes ahorrar para lograr conseguir tus sueños? Conócelo con nuestra calculadora de inversión! "Funciona como interés compuesto, “
+                ¿Sabes cuánto debes ahorrar para lograr conseguir tus sueños? Conócelo con nuestra calculadora de inversión! "Funciona como interés compuesto,
                   <a
                     href="https://www.investopedia.com/terms/c/compoundinterest.asp"
                     target="_blank"
                     rel="noopener"
                   >
-                    Haz Clic aqui para saber mas
+                   "Haz Clic aqui para saber mas"
                   </a>
-                  “
                 </p>
                 <p className="paso-1">Paso 1: Selecciona tu tipo de inversión</p>
               </div>
@@ -166,7 +165,7 @@ export default function InvestmentCalculator() {
                       <form action="" data-trp-original-action="">
                         <ul className="formulario-chart">
                           <li>
-                            <label for="Pricetwo">
+                            <label >
                               STEP 4: Enter your Monthly Investment
                             </label>
                             <br />
@@ -175,22 +174,22 @@ export default function InvestmentCalculator() {
                               name="currency-field"
                               id="valor_mensual"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$500"
+                              defaultValue="$500"
                               data-type="currency"
                             />
                           </li>
                           <li>
-                            <label for="PriceThree">Total meses:</label>
+                            <label>Total meses:</label>
                             <br />
                             <input
                               type="number"
                               id="meses_global"
-                              value="120"
-                              disabled="true"
+                              defaultValue="120"
+                              disabled={true}
                             />
                           </li>
                           <li style={{display: "none"}}>
-                            <label for="PriceFour">Valor total anual</label>
+                            <label>Valor total anual</label>
                             <br />
                             <input
                               type="text"
@@ -198,38 +197,38 @@ export default function InvestmentCalculator() {
                               id="valor_anual"
                               className="currency-field"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$9,999.96"
+                              defaultValue="$9,999.96"
                               data-type="currency"
                             />
                           </li>
                           <li>
-                            <label for="PriceFive">
+                            <label>
                               Annual returns: 12% recommended
                             </label>
                             <br />
                             <input
                               type="number"
                               id="rentabilidad"
-                              value="12"
+                              defaultValue="12"
                               placeholder="12"
                             />
                           </li>
                           <li>
                             <div className="calcular">
-                              <button type="button" onclick="updateChart()">
+                              <button type="button" onClick={()=>updateChart()}>
                                 Calculate
                               </button>
                             </div>
                           </li>
                           <li>
-                            <label for="PriceOne">Total Revenue Generated</label>
+                            <label >Total Revenue Generated</label>
                             <br />
                             <input
                               type="text"
                               name="currency-field"
                               id="valor_global"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$117,927.51"
+                              defaultValue="$117,927.51"
                               data-type="currency"
                             />
                           </li>
@@ -237,7 +236,7 @@ export default function InvestmentCalculator() {
                         <input
                           type="hidden"
                           name="trp-form-language"
-                          value="en"
+                          defaultValue="en"
                         />
                       </form>
                     </div>
@@ -433,29 +432,29 @@ export default function InvestmentCalculator() {
                       <form action="" data-trp-original-action="">
                         <ul className="formulario-chart">
                           <li>
-                            <label for="Pricetwo">Valor a invertir</label>
+                            <label>Valor a invertir</label>
                             <br />
                             <input
                               type="text"
                               name="currency-field"
                               id="valor_mensual_one"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$833.33"
+                              defaultValue="$833.33"
                               data-type="currency"
                             />
                           </li>
                           <li className="hide-this">
-                            <label for="PriceThree">Total months:</label>
+                            <label>Total months:</label>
                             <br />
                             <input
                               type="number"
                               id="meses_global"
-                              value="120"
-                              disabled="true"
+                              defaultValue="120"
+                              disabled={true}
                             />
                           </li>
                           <li className="hide-this">
-                            <label for="PriceFour">Valor total anual</label>
+                            <label>Valor total anual</label>
                             <br />
                             <input
                               type="text"
@@ -463,38 +462,38 @@ export default function InvestmentCalculator() {
                               id="valor_anual"
                               className="currency-field"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$9,999.96"
+                              defaultValue="$9,999.96"
                               data-type="currency"
                             />
                           </li>
                           <li>
-                            <label for="PriceFive">
+                            <label>
                               Annual returns: 12% recommended
                             </label>
                             <br />
                             <input
                               type="number"
                               id="rentabilidad_one"
-                              value="12"
+                              defaultValue="12"
                               placeholder="12"
                             />
                           </li>
                           <li>
                             <div className="calcular">
-                              <button type="button" onclick="updateChartOne()">
+                              <button type="button" onClick={()=>updateChartOne()}>
                                 Calculate
                               </button>
                             </div>
                           </li>
                           <li>
-                            <label for="PriceOne">Total Revenue Generated</label>
+                            <label>Total Revenue Generated</label>
                             <br />
                             <input
                               type="text"
                               name="currency-field"
                               id="valor_global_one"
                               pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
-                              value="$2,588.19"
+                              defaultValue="$2,588.19"
                               data-type="currency"
                             />
                           </li>
@@ -502,7 +501,7 @@ export default function InvestmentCalculator() {
                         <input
                           type="hidden"
                           name="trp-form-language"
-                          value="en"
+                          defaultValue="en"
                         />
                       </form>
                     </div>

@@ -58,7 +58,7 @@ const Languaje = () => {
         <div className="trp-ls-shortcode-current-language">
           <LanguajeOption data={opt[locale]} />
         </div>
-        <div className="trp-ls-shortcode-language">
+        <div className="trp-ls-shortcode-language" style={{width: "68px", display: "none"}}>
           <LanguajeOption data={opt[locale]} />
           <LanguajeOption data={locale=='es' ? opt['en'] : opt['es'] } />
         </div>

@@ -16,10 +16,10 @@ export default function Document() {
       {/* <link rel="stylesheet" id="slick_css-css" href="./slick.min.css" media="all"/>
       <link rel="stylesheet" id="slick_theme_css-css" href="./slick-theme.css" media="all"/> */}
       {/* <link rel="stylesheet" id="font-awesome-official-css" href="./all.css" media="all" crossorigin="anonymous"/> */}
-      {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" id="addtoany-css" href="./addtoany.min.css" media="all"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/v4-shims.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> */}
-      {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./v4-shims.css" media="all" crossorigin="anonymous"/> */}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+      {/* <link rel="stylesheet" id="addtoany-css" href="./addtoany.min.css" media="all"/> */}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/v4-shims.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      {/* <link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./v4-shims.css" media="all" crossorigin="anonymous"/>
 
       
       {/* <script type="text/javascript" src="./conditionizr-4.3.0.min.js" id="conditionizr-js"></script>
