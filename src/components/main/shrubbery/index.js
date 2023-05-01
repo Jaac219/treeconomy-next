@@ -1,26 +1,24 @@
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { useContext } from 'react'
+import GlobalContext from '@/src/context/globalContext'
 
 
 const MShrubbery = ()=>{
+  const { data: { home } } = useContext(GlobalContext)
   return (
-    // <div className={`container-fluid ${styles.arbustos}`}>
     <div className={`container-fluid arbustos`}>
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-xl-12 col-12">
             <div className="position-text">
-              {/* <h2 className={styles.tittleBanner}> */}
               <h2 className="tittle-banner">
                 <span className="titulo-1"> </span>
-                {/* <span className={styles.titulo1}> </span> */}
                 <span className="titulo-2">
-                  {/* <span className={styles.titulo2}> */}
-                  Construyendo una sostenibilidad{' '}
+                  {home.title.title2}{' '}
                 </span>
-                <span className="titulo-3"> Rentable</span>
-                {/* <span className={styles.titulo3}> Rentable</span> */}
+                <span className="titulo-3"> {home.title.title3} </span>
               </h2>
               <a
                 href="https://www.treeconomy.com.co/es/como-funciona/"
@@ -40,7 +38,6 @@ const MShrubbery = ()=>{
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faFacebookF} />
-                    {/* <i className="fa fa-facebook-f"></i> */}
                   </a>
                 </li>
                 <li>
@@ -49,13 +46,11 @@ const MShrubbery = ()=>{
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faInstagram} />
-                    {/* <i className="fa fa-instagram"></i> */}
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/TheTreeconomy" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} />
-                    {/* <i className="fa fa-twitter"></i> */}
                   </a>
                 </li>
               </ul>
@@ -73,10 +68,8 @@ const MShrubbery = ()=>{
                 <iframe
                   width="100%"
                   height="100%"
-                  // frameborder="0"
                   rel="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  // allowfullscreen=""
                   data-src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"
                   className="lazyloaded"
                   src="https://www.youtube.com/embed/L-P50TKq0-I?rel=0"

@@ -1,0 +1,120 @@
+{
+  "block": {
+    "preHeader": {
+      "items": [
+        {
+          "label": "Who we are",
+          "url": "http://localhost:3000/who-we-are",
+          "type": "text"
+        },
+        {
+          "label": "News",
+          "url": "http://localhost:3000/news",
+          "type": "text"
+        },
+        {
+          "label": "Contact us",
+          "url": "http://localhost:3000/contact-us",
+          "type": "text"
+        },
+        {
+          "label": "Login",
+          "url": "https://app.treeconomy.com.co/en/account/login/",
+          "type": "button"
+        }
+      ]
+    },
+    "header": {
+      "logo": {
+        "nigth": {
+          "url": "http://localhost:3000/",
+          "logo": "https://treeconomy.com.co/wp-content/uploads/2020/08/Logo-Blanco.png"
+        },
+        "day": {
+          "url": "http://localhost:3000/",
+          "logo": "https://www.treeconomy.com.co/wp-content/uploads/2020/07/Logo-Verde.png"
+        }
+      },
+      "items": [
+        {
+          "label": "How it works?",
+          "url": "http://localhost:3000/how-it-works",
+          "type": "text"
+        },
+        {
+          "label": "Investment Calculator",
+          "url": "http://localhost:3000/investment-calculator",
+          "type": "text"
+        },
+        {
+          "label": "Companies",
+          "url": "http://localhost:3000/companies",
+          "type": "text"
+        },
+        {
+          "label": "Plant Trees Now!",
+          "url": "https://app.treeconomy.com.co/en/projects/",
+          "type": "button"
+        }
+      ],
+      "languajes": {
+        "es": {
+          "title":"Espa&ntilde;ol de Colombia",
+          "alt":"es",
+          "icon":"https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_CO.png"
+        },
+        "en": {
+          "title": "English",
+          "alt": "en",
+          "icon": "https://www.treeconomy.com.co/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"
+        }
+      }
+    },
+    "footer": {
+      "title": "Stay informed about reforestation investments",
+      "placeholder": "Enter your email address",
+      "items": [
+        {
+          "url": "http://localhost:3000",
+          "label": "Home"
+        },
+        {
+          "url": "http://localhost:3000/how-it-works",
+          "label": "How it works"
+        },
+        {
+          "url": "http://localhost:3000/investment-calculator",
+          "label": "Investment Calculator"
+        },
+        {
+          "url": "http://localhost:3000/who-we-are/",
+          "label": "Team"
+        },
+        {
+          "url": "http://localhost:3000/contact-us/",
+          "label": "Contact us"
+        },
+        {
+          "url": "http://localhost:3000/news/",
+          "label": "News"
+        },
+        {
+          "url": "http://localhost:3000/faqs/",
+          "label": "Faqs"
+        }
+      ],
+      "copyright": "© 2021 TREEconomy. All rights reserved.",
+      "conditions": {
+        "url": "#",
+        "text": "Terms & Conditions"
+      }
+    }
+  },
+  "home": {
+    "title": {
+      "title1": "",
+      "title2": "Building a sustainability",
+      "title3": "Profitable"
+    }
+  }
+}

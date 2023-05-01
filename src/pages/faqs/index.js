@@ -1,3 +1,7 @@
+import en from '../../lang/en'
+import es from '../../lang/es'
+
+
 export default function Faqs(){
   return(
     <>
@@ -332,4 +336,17 @@ export default function Faqs(){
 </section>
     </>
   )
+}
+
+export async function getStaticProps({locale}){
+
+  /** En este punto debe entrar la informacion desde el endpoint
+  de la api para ser enviado a los componentes por props*/
+  const data = locale === "en" ? en : es
+
+  return {
+    props: {
+      data
+    }
+  }
 }

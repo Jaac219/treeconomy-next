@@ -9,7 +9,7 @@ const Main = ()=>{
 
   setTimeout(()=>{
     setIsDay(!isDay)
-  }, 3000)
+  }, 12000)
 
   return(
     <>

@@ -1,13 +1,15 @@
 import Navbar from '../navbar'
 import Languaje from '../languaje'
+
 import styles from './styles.module.scss'
 
 import { useContext, useEffect, useState } from 'react'
 import DayContext from '@/src/context/dayContext'
+import GlobalContext from '@/src/context/globalContext'
 
 const Header = ()=>{
-
-  const {isDay} = useContext(DayContext);
+  const { data: { block: { header } } } = useContext(GlobalContext)
+  const { isDay } = useContext(DayContext);
   const [headerIsTop, setHeaderIsTop] = useState(false)
 
   const handleScroll = () => {
@@ -25,7 +27,6 @@ const Header = ()=>{
   },[])
 
   return (
-    // <section id="animacion-dias-header" className={`${styles.header} ${styles.headerMain} ${styles.night}`}>
     <section
       id="animacion-dias-header"
       className={`header header-main ${isDay ? 'day' : 'night'} ${headerIsTop ? 'top-of-page': ''} `}
@@ -35,22 +36,12 @@ const Header = ()=>{
           <div className="col-xl-2 col-lg-2">
             <div className="logo logo-animado" id="myGallery">
               <a href="http://localhost:3000">
-                {isDay || headerIsTop ? 
                   <img
-                    id="logo-inicial-color-verde"
                     alt="Logo"
-                    data-src="https://treeconomy.com.co/wp-content/uploads/2020/07/Logo-Verde.png"
-                    className={"logo-img active lazyload"}
-                    src="https://treeconomy.com.co/wp-content/uploads/2020/07/Logo-Verde.png"
-                  /> :
-                  <img
-                    id="logo-inicial-color-blanco"
-                    alt="Logo"
-                    data-src="https://treeconomy.com.co/wp-content/uploads/2020/08/Logo-Blanco.png"
-                    className={"logo-img active lazyload"}
-                    src="https://treeconomy.com.co/wp-content/uploads/2020/08/Logo-Blanco.png"
+                    data-src={header?.logo[isDay || headerIsTop ? 'day': 'nigth'].logo}
+                    className="logo-img active lazyload"
+                    src={header?.logo[isDay || headerIsTop ? 'day': 'nigth'].logo}
                   />
-                }
               </a>
             </div>
           </div>

@@ -2,6 +2,8 @@ import('./styles.module.scss')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 import Slider from "react-slick";
+import Image from 'next/image'
+
 
 const MBlog = () => {
 
@@ -65,6 +67,7 @@ const MBlog = () => {
                     data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1972.png"
                     className="lazyload"
                     src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1972.png"
+                    
                   />
                   <p>
                     <span className="counter">55.000</span> árboles plantados
@@ -76,6 +79,7 @@ const MBlog = () => {
                     data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1973.png"
                     className="lazyload"
                     src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1973.png"
+                    
                   />
                   <p>
                     <span className="counter2">3.650</span>tons de CO2
@@ -88,6 +92,7 @@ const MBlog = () => {
                     data-src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1970.png"
                     className="lazyload"
                     src="https://treeconomy.com.co/wp-content/uploads/2020/05/Group-1970.png"
+                    
                   />
                   <p>
                     <span className="counter3">63</span> usuarios han invertido
@@ -162,6 +167,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 6912px) 100vw, 6912px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/01.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>23 marzo</p>
@@ -244,6 +250,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1366px) 100vw, 1366px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/03/Diseno-sin-titulo.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>3 marzo</p>
@@ -317,6 +324,7 @@ const MBlog = () => {
                     data-src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Diseno-sin-titulo.png"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Diseno-sin-titulo.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>27 febrero</p>
@@ -392,6 +400,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/1-2.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>20 febrero</p>
@@ -466,6 +475,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 2560px) 100vw, 2560px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/vecteezy_male-investor-use-a-laptop-computer-compound-interest-rate_8140442_236-scaled.jpg"
+                  
                   />
                   <div className="fecha-blog">
                     <p>13 febrero</p>
@@ -540,6 +550,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/02/Imagen-articulo.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>6 febrero</p>
@@ -602,6 +613,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="https://www.treeconomy.com.co/wp-content/uploads/2023/01/4-articulos.png"
+                    
                   />
                   <div className="fecha-blog">
                     <p>15 enero</p>
@@ -675,6 +687,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1620px) 100vw, 1620px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    
                   />
                   <div className="fecha-blog">
                     <p>28 diciembre</p>
@@ -738,6 +751,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    
                   />
                   <div className="fecha-blog">
                     <p>11 noviembre</p>
@@ -800,6 +814,7 @@ const MBlog = () => {
                     data-sizes="(max-width: 1640px) 100vw, 1640px"
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    
                   />
                   <div className="fecha-blog">
                     <p>10 octubre</p>

@@ -4,11 +4,11 @@ import BChat from '../components/blocks/b-chat'
 
 import { useState } from 'react'
 import DayContext from '../context/dayContext'
+import GlobalContext from '../context/globalContext'
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-
 
 // Import css files
 import '@/public/styles.css'
@@ -29,11 +29,14 @@ export default function App({ Component, pageProps }) {
   const [ isDay, setIsDay ] = useState(true)
 
   return (
-    <DayContext.Provider value={{ isDay, setIsDay }} >
-      <BHeader />
-        <Component {...pageProps} />
-      <BFooter />
-      <BChat />
-    </DayContext.Provider>
+    <GlobalContext.Provider value={pageProps}>
+      <DayContext.Provider value={{ isDay, setIsDay }} >
+        <BHeader />
+          <Component />
+        <BFooter />
+        <BChat />
+      </DayContext.Provider>
+    </GlobalContext.Provider>
   )
 }
+

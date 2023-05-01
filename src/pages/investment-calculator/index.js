@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import en from '../../lang/en'
+import es from '../../lang/es'
 
 export default function InvestmentCalculator() {
   return (
@@ -581,4 +583,18 @@ export default function InvestmentCalculator() {
       </section>
     </>
   )
+}
+
+
+export async function getStaticProps({locale}){
+
+  /** En este punto debe entrar la informacion desde el endpoint
+  de la api para ser enviado a los componentes por props*/
+  const data = locale === "en" ? en : es
+
+  return {
+    props: {
+      data
+    }
+  }
 }

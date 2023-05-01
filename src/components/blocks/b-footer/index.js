@@ -1,17 +1,21 @@
+import GlobalContext from "@/src/context/globalContext"
+import { useContext } from "react"
+
 const BFooter = () => {
+  const { data: { block: { footer } } } = useContext(GlobalContext)
   return (
     <footer className="footer" role="contentinfo">
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
-            <h2>Mantente informado sobre opciones de inversión</h2>
+            <h2>{footer.title}</h2>
             <ul className="form-footer">
               <li className="input-form">
                 <input
                   type="email"
                   name="email-subscribe"
                   id="email-subscribe"
-                  placeholder="Ingresa tu correo electrónico"
+                  placeholder={footer.placeholder}
                 />
               </li>
               <li className="button-form">
@@ -23,62 +27,17 @@ const BFooter = () => {
         <div className="row">
           <div className="col-xl-12">
             <ul id="menu-footer" className="menu">
-              <li
-                id="menu-item-115"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-115"
-              >
-                <a href="https://www.treeconomy.com.co/es/" aria-current="page">
-                  Inició
-                </a>
-              </li>
-              <li
-                id="menu-item-383"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"
-              >
-                <a href="https://www.treeconomy.com.co/es/como-funciona/">
-                  Como Funciona
-                </a>
-              </li>
-              <li
-                id="menu-item-669"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-669"
-              >
-                <a href="https://www.treeconomy.com.co/es/calculadora-de-inversion/">
-                  Calculadora de inversion
-                </a>
-              </li>
-              <li
-                id="menu-item-385"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"
-              >
-                <a href="https://www.treeconomy.com.co/es/quienes-somos/">
-                  Equipo
-                </a>
-              </li>
-              <li
-                id="menu-item-384"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"
-              >
-                <a href="https://www.treeconomy.com.co/es/contactanos/">
-                  Contáctanos
-                </a>
-              </li>
-              <li
-                id="menu-item-624"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-624"
-              >
-                <a href="https://www.treeconomy.com.co/es/noticias/">
-                  Noticias
-                </a>
-              </li>
-              <li
-                id="menu-item-850"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-850"
-              >
-                <a href="https://www.treeconomy.com.co/es/faqs/">
-                  Preguntas frecuentes
-                </a>
-              </li>
+              {footer?.items && footer.items.map((val, i)=>{
+                return (
+                  <li key={i} className="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a
+                      href={val.url}
+                    >
+                      {val.label}
+                    </a>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         </div>
@@ -127,9 +86,9 @@ const BFooter = () => {
         <div className="row">
           <div className="col-xl-12">
             <p className="final">
-              © 2021 TREEconomía. Reservados todos los derechos.
+              {footer.copyright}
               <br />
-              <a href="#">Términos y condiciones</a>
+              <a href={footer.conditions.url}>{footer.conditions.text}</a>
             </p>
           </div>
         </div>

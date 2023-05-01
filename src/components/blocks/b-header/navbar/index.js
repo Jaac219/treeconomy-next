@@ -1,22 +1,20 @@
+import { useContext } from 'react'
 import styles from './styles.module.scss'
+import GlobalContext from '@/src/context/globalContext'
 
 const Navbar = ()=>{
+  const { data: { block: { header } } } = useContext(GlobalContext)
   return(
-    // <nav className={`${styles.nav} ${styles.navHome}`} role="navigation">
     <nav className="nav nav-home" role="navigation">
       <ul id="menu-main-menu" className="menu">
-        <li id="menu-item-18"
-          className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-18"><a
-            href="http://localhost:3000/">/</a></li>
-        <li id="menu-item-313" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a
-            href="http://localhost:3000/how-it-works/">Como Funciona</a></li>
-        <li id="menu-item-668" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a
-            href="http://localhost:3000/investment-calculator">Calculadora de inversion</a></li>
-        <li id="menu-item-1484" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1484">
-          <a target="_blank" rel="noopener" href="http://localhost:3000/companies">Companies</a>
-        </li>
-        <li id="menu-item-490" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-490"><a
-            href="https://app.treeconomy.com.co/en/projects/">Planta un Árbol</a></li>
+        {header?.items && header.items.map((val, i)=>{
+          return val.type === 'button' ?
+            <li key={i} id="menu-item-490" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-490"><a
+            href={val.url}>{val.label}</a></li>
+          :
+            <li key={i} id="menu-item-313" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a
+            href={val.url}>{val.label}</a></li>
+        })}        
         <li id="menu-item-1122" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1122">
           <a target="_blank" rel="noopener" href="https://www.instagram.com/thetreeconomy/">#</a></li>
       </ul>

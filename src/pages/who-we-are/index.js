@@ -1,3 +1,9 @@
+/**esta data debe venir desde la api y se debe llamar 
+desde el gesStaticProps */
+
+import en from '../../lang/en'
+import es from '../../lang/es'
+
 export default function WhoWeAre() {
   return (
     <>
@@ -389,4 +395,18 @@ export default function WhoWeAre() {
       </section>
     </>
   )
+}
+
+
+export async function getStaticProps({locale}){
+
+  /** En este punto debe entrar la informacion desde el endpoint
+  de la api para ser enviado a los componentes por props*/
+  const data = locale === "en" ? en : es
+
+  return {
+    props: {
+      data
+    }
+  }
 }
